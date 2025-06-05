@@ -1,2 +1,83 @@
-# pitch-detection-gender-classification
-A digital signal processing project that detects pitch from speech signals using autocorrelation and classifies speaker gender based on estimated frequency.
+# 🎵 Pitch Detection and Gender Classification Using Audio Signal Analysis
+
+This project is a **Digital Signal Processing (DSP)** application developed in Python to detect **pitch** (fundamental frequency) from a voice recording and classify the **speaker's gender** based on pitch estimation. It also provides visual insights into the time-domain signal, autocorrelation, and frequency spectrum.
+
+---
+
+## 📌 Features
+
+- Load and analyze `.wav` audio files.
+- Perform **autocorrelation** to estimate pitch.
+- Classify **gender** based on detected pitch range.
+- Display:
+  - Time-domain waveform
+  - Autocorrelation graph
+  - Frequency spectrum (FFT)
+- Play back the audio signal.
+
+---
+
+## 🧠 How It Works
+
+1. **Load Audio**  
+   Audio is loaded using `librosa`, preserving its original sampling rate.
+
+2. **Pitch Estimation**  
+   - Uses **autocorrelation** to find periodicity.
+   - Calculates pitch using:  
+     \[
+     \text{Pitch (Hz)} = \frac{\text{Sampling Rate}}{\text{Period in Samples}}
+     \]
+
+3. **Gender Classification**  
+   Based on known pitch ranges:
+   - Male: 85–180 Hz  
+   - Female: 165–255 Hz
+
+4. **FFT Analysis**  
+   Fast Fourier Transform is used to analyze the frequency content.
+
+---
+
+## 📊 Visualization Output
+
+- **Waveform** of the audio
+- **Autocorrelation** plot with peak indicating estimated pitch
+- **Frequency Spectrum** (FFT plot)
+
+---
+
+## 📂 Files
+
+- `main.py` – Main Python script for pitch detection and gender classification  
+- `female_voice.wav` / `male_voice.wav` – Sample audio files (replace with your own)  
+- `README.md` – Project overview and explanation
+
+---
+
+## 📚 Applications
+
+- Voice-controlled systems  
+- Speech recognition preprocessing  
+- Speaker identification systems  
+- Forensic audio analysis  
+- Gender-based speech filtering
+
+---
+
+## ✅ Conclusion
+
+This project showcases how **core digital signal processing techniques** like **autocorrelation** and **FFT** can be effectively applied to real-world problems such as **pitch detection** and **gender classification**. It demonstrates the value of signal analysis in extracting meaningful features from audio and forms a solid base for advanced audio processing systems like voice assistants, biometric authentication, and smart communication tools.
+
+---
+
+## 🧑‍💻 Author
+
+**Soyam Kapoor**  
+[GitHub](https://github.com/SoyamKapoor) • [LinkedIn](https://www.linkedin.com/in/soyamkapoor)
+
+---
+
+## 📜 License
+
+This project is open-source under the [MIT License](LICENSE).
