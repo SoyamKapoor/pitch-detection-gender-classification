@@ -68,14 +68,3 @@ This project is a **Digital Signal Processing (DSP)** application developed in P
 This project showcases how **core digital signal processing techniques** like **autocorrelation** and **FFT** can be effectively applied to real-world problems such as **pitch detection** and **gender classification**. It demonstrates the value of signal analysis in extracting meaningful features from audio and forms a solid base for advanced audio processing systems like voice assistants, biometric authentication, and smart communication tools.
 
 ---
-
-## 🧑‍💻 Author
-
-**Soyam Kapoor**  
-[GitHub](https://github.com/SoyamKapoor) • [LinkedIn](https://www.linkedin.com/in/soyamkapoor)
-
----
-
-## 📜 License
-
-This project is open-source under the [MIT License](LICENSE).
