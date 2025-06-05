@@ -25,9 +25,7 @@ This project is a **Digital Signal Processing (DSP)** application developed in P
 2. **Pitch Estimation**  
    - Uses **autocorrelation** to find periodicity.
    - Calculates pitch using:  
-     \[
-     \text{Pitch (Hz)} = \frac{\text{Sampling Rate}}{\text{Period in Samples}}
-     \]
+     Pitch = Sampling Rate / Period in Samples
 
 3. **Gender Classification**  
    Based on known pitch ranges:
