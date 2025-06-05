@@ -47,7 +47,7 @@ This project is a **Digital Signal Processing (DSP)** application developed in P
 
 ## 📂 Files
 
-- `main.py` – Main Python script for pitch detection and gender classification  
+- `pitch_detection_and_gender_classification.ipynb` – Main Python script for pitch detection and gender classification  
 - `female_voice.wav` / `male_voice.wav` – Sample audio files (replace with your own)  
 - `README.md` – Project overview and explanation
 
